@@ -1,0 +1,28 @@
+{
+  "name": "chatik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p nodes service",
+    "nodes": "node index.js",
+    "service": "./electrode.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turali/liquid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turali/liquid/issues"
+  },
+  "homepage": "https://github.com/turali/liquid#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}
