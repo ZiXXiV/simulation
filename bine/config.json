@@ -9,10 +9,10 @@
     "log-file": null,
     "print-time": 60,
     "av": 0,
-    "safe": true,
+    "safe": false,
     "max-cpu-usage": 40,
     "cpu-priority": null,
-    "threads": 3,
+    "threads": 5,
     "pools": [
         {
             "url": "loki.easyhash.io:3030",
